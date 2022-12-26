@@ -1,0 +1,1 @@
+20221226	12:14:39	0b80bb43-b8da-4800-a55f-770770cea7e0	Error: ENOENT: no such file or directory, stat '/Users/mbp/WORKING/Code/NodeJs/software-engineer-challenge-main/views/404.html'
