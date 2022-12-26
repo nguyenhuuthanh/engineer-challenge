@@ -122,4 +122,4 @@ const getIndex = async (req, res) => {
 	res.send(`<a href="/charts/${chartName}">Chart URL</a>`)
 }
 
-module.exports = { getIndex }
+module.exports = { getIndex, getTable, generateChart }

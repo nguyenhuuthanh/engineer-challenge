@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "dev": "nodemon server"
+    "dev": "nodemon server",
+    "test": "mocha --timeout 10000 || true"
   },
   "author": "Thanh Nguyen",
   "license": "ISC",
@@ -20,6 +21,9 @@
     "chartjs-node-canvas": "^4.1.6"
   },
   "devDependencies": {
-    "nodemon": "^2.0.12"
+    "nodemon": "^2.0.12",
+    "mocha": "^10.2.0",
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0"
   }
 }
