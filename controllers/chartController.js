@@ -5,6 +5,13 @@ const cheerio = require('cheerio');
 const axios = require('axios');
 const { ChartJSNodeCanvas } = require('chartjs-node-canvas');
 
+/**
+ * Generate chart image.
+ *
+ * @param {Array} data
+ *
+ * @returns {String}
+ */
 async function generateChart(data) {
 	const chartName = `chartImage_${new Date().getTime()}.png`;
 	const chartDownloadUrl = path.resolve(__dirname + `/../public/charts/${chartName}`);
@@ -68,6 +75,13 @@ async function generateChart(data) {
 	return chartName;
 }
 
+/**
+ * Scraping to extract data in table of web page.
+ *
+ * @param {String} url URL of wikipedia page
+ *
+ * @returns {Array}
+ */
 async function getTable(url) {
   try {
     const { data } = await axios({
@@ -77,12 +91,6 @@ async function getTable(url) {
 
     const $ = cheerio.load(data)
     const elemSelector =  $('table').first()
-
-		const tableHeader = elemSelector.find('th').map(function() {return $(this).text().trim();}).toArray();
-
-		// console.log(tableHeader.length);
-
-		// return $('table').first().text();
 
 		// gets table cell values; loops through all tr rows
 		const tableData = elemSelector.find('tbody tr').map(function(tr_index) {
