@@ -1,3 +1,8 @@
 20221226	12:14:39	47fb15c9-a92a-4156-8c46-5fc298757a05	GET	undefined	/
 20221226	12:15:10	1fdfda8b-2925-41b4-ba9b-614cbc34d1b8	GET	undefined	/
 20221226	12:15:11	1eeade96-4174-4de3-ba14-dc2a54642ce4	GET	undefined	/css/style.css
+20221226	14:03:26	56bf1b54-f0aa-4efd-a8bc-f9f6574a22d2	GET	undefined	/chart?url=https://en.wikipedia.org/wiki/Women%27s_high_jump_world_record_progressio
+20221226	14:06:12	e2e3ed9a-0171-4e0c-bb6e-716e2eb9638f	GET	undefined	/
+20221226	14:06:13	1d4ada17-d529-4622-bda4-08714080466e	GET	undefined	/css/style.css
+20221226	14:06:32	53223b1d-d5e6-4542-880e-4f9a7d8136a5	GET	undefined	/chart?url=https://en.wikipedia.org/wiki/Women%27s_high_jump_world_record_progression
+20221226	14:07:08	d7306bd8-f0c9-4f01-884f-3c4e5d665f47	GET	undefined	/chart?url=https://en.wikipedia.org/wiki/Women%27s_high_jump_world_record_progression

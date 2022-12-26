@@ -26,5 +26,15 @@ Current version:
 
 6. Save the image to a file using a library (fs).
 
-## Submitting
+## Run project in localhost
 
+
+### Install package: `npm install`
+
+### Run project: `npm run dev`
+
+### Access web page with URLs:
+
+`localhost:3500/chart?url=https://en.wikipedia.org/wiki/Women%27s_high_jump_world_record_progression`
+
+The saved image is exported in folder `public/charts`
